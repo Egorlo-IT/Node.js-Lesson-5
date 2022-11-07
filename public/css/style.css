@@ -1,0 +1,77 @@
+body {
+  background-color: #323478;
+  font-family: "Kanit", sans-serif;
+}
+
+.title {
+  font-size: calc(4vmin + 18px);
+  font-weight: 500;
+  letter-spacing: 3px;
+  line-height: 32px;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.section-output {
+  background-color: #fff;
+  min-height: 50vh;
+  max-height: 60vh;
+  width: 100%;
+  border-radius: 25px;
+  overflow-y: scroll;
+}
+
+.list {
+  padding: 25px;
+}
+
+.item a {
+  font-size: calc(1.5vmin + 14px);
+  font-weight: 200;
+  color: #333;
+}
+
+.item a:hover {
+  color: #323478;
+  font-weight: 300;
+}
+
+.dots a {
+  font-weight: 500;
+  font-size: calc(1.5vmin + 18px);
+  letter-spacing: 4px;
+}
+
+.dots a:hover {
+  font-weight: 600;
+  letter-spacing: 6px;
+  color: #323478;
+}
+
+.dir a {
+  color: brown;
+}
+
+.fa {
+  margin-right: 5px;
+}
